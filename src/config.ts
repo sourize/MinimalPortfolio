@@ -1,12 +1,12 @@
 import type { Site, Ui, Features } from './types'
 
 export const SITE: Site = {
-  website: 'https://astro-antfustyle-theme.vercel.app/',
+  website: 'https://minimalfolio.vercel.app/',
   base: '/',
-  title: 'Astro AntfuStyle Theme',
+  title: 'Home',
   description:
-    'A customizable, feature-rich Astro theme for blog and portfolio creation',
-  author: 'Stephanie Lin',
+    'An Aspiring ML Engineer/Data Scientist ',
+  author: 'Sourish Chatterjee',
   lang: 'en',
   ogLocale: 'en_US',
 }
@@ -36,13 +36,13 @@ export const UI: Ui = {
   ],
   socialLinks: [
     {
-      link: 'https://github.com/lin-stephanie/astro-antfustyle-theme',
-      title: 'AntfuStyle on Github',
+      link: 'https://github.com/sourize',
+      title: 'Github',
       displayMode: 'alwaysIcon',
       icon: 'i-uil-github-alt',
     },
     {
-      link: 'https://x.com/ste7lin',
+      link: 'https://x.com/sourize_',
       title: `${SITE.author} on Twitter`,
       displayMode: 'iconHiddenOnMobile',
       icon: 'i-ri-twitter-x-fill',
@@ -60,8 +60,8 @@ export const UI: Ui = {
   },
   tabbedLayoutTabs: [
     { title: 'Changelog', path: '/changelog' },
-    { title: 'AstroBlog', path: '/feeds' },
-    { title: 'AstroStreams', path: '/streams' },
+    { title: 'Blog', path: '/feeds' },
+    //{ title: 'AstroStreams', path: '/streams' },
   ],
   maxGroupColumns: 3,
   showGroupItemColorOnHover: true,
@@ -76,8 +76,8 @@ export const FEATURES: Features = {
   share: [
     true,
     {
-      twitter: [true, '@ste7lin'],
-      mastodon: [true, '@ste7lin@fairy.id'],
+      twitter: [true, '@sourize_'],
+      mastodon: [false, '@ste7lin@fairy.id'],
       facebook: false,
       pinterest: false,
       reddit: false,
